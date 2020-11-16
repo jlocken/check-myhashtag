@@ -3,7 +3,6 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 
 import './Tweets.css'
 import TweetsList from './TweetsList'
-import ContentLoading from './ContentLoading'
 import SearchForm from './SearchForm'
 
 
@@ -13,8 +12,6 @@ function Tweets() {
     
     const [hashtag, setHashtag] = useState('#TrumpConceded')
 
-
-    
     return (
         
         <div className="feed">

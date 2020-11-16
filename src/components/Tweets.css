@@ -31,7 +31,7 @@
     background-color: #fff;
     z-index: 100;
     border-bottom: 1px solid var(--twitter-background);
-    height: 10vh;
+    height: 5vh;
     padding: 15px 20px;
 }
 .feed__header--tag {
@@ -47,8 +47,8 @@
     font-size: 20px;
 }
 .feed__tweetsList {
-    padding: 5px 10px;
-}
+    padding: 5px 20px;
+} 
 .feed_twitterIcon {
   color: var(--twitter-color);
   font-size: 40px !important;
@@ -83,3 +83,5 @@
  
 
 }
+
+
