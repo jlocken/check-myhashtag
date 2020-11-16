@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {TwitterTweetEmbed} from 'react-twitter-embed'
 
 const Tweet = ({ data }) => {
@@ -7,6 +8,8 @@ const Tweet = ({ data }) => {
     const options = {
         align: "center",
         width: "550",
+        height: "400"
+
     }
 
     return <TwitterTweetEmbed options = { options } tweetId = { id_str } />

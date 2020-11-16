@@ -1,11 +1,14 @@
-FROM node:14.5-alpine
-ENV NODE_ENV=development
+ARG node_version
+
+
+FROM node:${node_version}
+ENV NODE_ENV=develop
 
 WORKDIR /app
 
 COPY ["package.json", "yarn.lock","./"]
 
-RUN yarn install
+RUN npm install
 
 COPY . .
 
